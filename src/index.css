@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-text {
+	@apply flex justify-between items-center h-16 bg-black text-white relative shadow-sm font-mono
+}
