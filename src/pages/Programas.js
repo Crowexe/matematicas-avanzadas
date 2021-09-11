@@ -1,9 +1,10 @@
 import React from 'react'
+import Programa01 from '../components/Programa01'
 
 export const Programas = () => {
 	return (
 		<div>
-			<h1>Tareas pendientes</h1>			
+			<Programa01 />			
 		</div>
 	)
 }

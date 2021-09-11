@@ -23,8 +23,8 @@ const Navbar = ({toggle}) => {
 				</svg>
 			</div>
 			<div className="pr-8 md:block hidden">
-				<Link className='p-4' to='/'>Inicio</Link>
-				<Link className='p-4' to='/about'>Programas</Link>
+				<Link className='p-4' to='/'><i class="fas fa-home"/></Link>
+				<Link className='p-4' to='/programas'><i class="fas fa-calculator"/></Link>
 			</div>
 		</nav>
 	);
