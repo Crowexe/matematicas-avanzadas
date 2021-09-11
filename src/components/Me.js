@@ -2,10 +2,10 @@ import React from 'react';
 
 export const Me = () => {
 	return (
-		<>
-			<figure className="w-8/12 md:flex m-5 bg-gray-300 rounded-xl p-0 mt-24">
-				<img className="flex justify-start w-50 h-50 w-48 h-auto rounded-l-lg mx-auto" src="https://i.imgur.com/yjasrrc.jpg" alt="me"/>
-					<div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+		<div className="card">
+			<figure className="md:flex max-w-2xl bg-gray-300 bg-center bg-opacity-70 m-5 mt-20 align-center md:rounded-xl p-8 md:p-0">
+				<img className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="https://i.imgur.com/yjasrrc.jpg" alt="me" width="384" height="512"/>
+				<div className="pt-6 md:p-8 text-center md:text-left space-y-4">
 						<blockquote>
 						<p className="text-lg font-semibold">
 							Programas para la asignatura de matamáticas avanzadas para la ingenieria
@@ -21,7 +21,7 @@ export const Me = () => {
 						</figcaption>
 					</div>
 			</figure>
-		</>
+		</div>
 	)
 }
 
