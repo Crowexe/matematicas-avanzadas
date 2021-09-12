@@ -16,6 +16,11 @@ body {
 .card {
 	display: grid;
 	justify-content: center;
+	
+}
+
+i {
+	margin-right: 0.6rem;
 }
 
 

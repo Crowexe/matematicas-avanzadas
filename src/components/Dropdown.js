@@ -6,7 +6,7 @@ export const Dropdown = ({isOpen, toggle}) => {
 		<div 
 			className={
 				isOpen 
-					? 'grid grid-rows-2 rounded-b-xl text-white text-center items-center bg-black bg-opacity-90' 
+					? 'grid grid-rows-2 rounded-b-xl text-white text-center items-center bg-black bg-opacity-75' 
 					: 'hidden'
 				}
 				onClick={toggle}
