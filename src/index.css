@@ -13,3 +13,15 @@
 .pfp {
 	@apply w-32 h-32 md:w-48 md:h-auto md:rounded-l-xl rounded-none mx-auto
 }
+
+.entrada {
+	@apply w-32 rounded-md focus:ring-2 focus:ring-indigo-600
+}
+
+.calculadora {
+	@apply flex w-auto bg-indigo-400 bg-center bg-opacity-70  rounded-t-xl p-2
+}
+
+.resultado {
+	@apply flex w-auto bg-indigo-300 bg-center bg-opacity-70  rounded-b-xl p-2
+}
